@@ -1,0 +1,14 @@
+platform :ios, '8.1'
+use_frameworks!
+swift_version = "3.0"
+
+source 'https://github.com/twilio/cocoapod-specs'
+source 'https://github.com/CocoaPods/Specs.git'
+
+project 'PacifySDKSample.xcodeproj'
+
+target :PacifySDKSample do
+project 'PacifySDKSample.xcodeproj'
+    pod 'PacifySDK', '= 0.0.9'
+    pod 'TwilioVideo', '= 1.0.0-beta13'
+end
