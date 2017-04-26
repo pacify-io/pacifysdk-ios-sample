@@ -29,7 +29,10 @@ class ViewController: UIViewController {
         let token = self.tokenTextField.text ?? ""
         let coupon = self.couponTextField.text
         
-        let userData = PacifyUserData(firstName: "Nick", lastName: "Bos", email: "nick@somedomain.com", phone: "1234567890", dateOfBirth: Date())
+        let userData = PacifyUserData(
+            firstName: "Nick",
+            lastName: "Bos", // optional, used for payment only
+            email: "nick@matrix.com")
         
         let appearance = PacifyAppearance(
             backgroundColor: UIColor(red: 249.0 / 255, green: 249.0 / 255, blue: 249.0 / 255, alpha: 1),
@@ -40,7 +43,17 @@ class ViewController: UIViewController {
             textColor: UIColor(red: 76.0 / 255, green: 0, blue: 82.0 / 255, alpha: 1),
             companyLogo: UIImage(named: "Logo"))
         
-        let settings = PacifySettings(appearance: appearance, environment: .testing, logLevel: .debug)
+        let supportInfo = PacifySupportInfo(
+            email: "support@company.com", //used on home screen as support email
+            phone: "1234567890") // used on home screen as suppor email
+        
+        let settings = PacifySettings(
+            appearance: appearance,
+            environment: .testing,
+            logLevel: .error,
+            supportInfo: supportInfo,
+            appTitle: "MyApp" //embedding application title, used in title of back button and in new user congratulation message
+        )
         
         Pacify.call(apiKey: apiKey, userToken: token, coupon: coupon, userData: userData, settings: settings, delegate: self)
     }
