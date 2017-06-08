@@ -26,7 +26,7 @@ PODS:
   - DeviceKit (1.0.1)
   - EDStarRating (1.1)
   - Kingfisher (3.6.2)
-  - PacifySDK (0.1.3):
+  - PacifySDK (0.1.4):
     - AFNetworking (~> 2.6.3)
     - CocoaLumberjack/Swift (~> 3.1.0)
     - DeviceKit (~> 1.0.1)
@@ -50,7 +50,7 @@ PODS:
   - zipzap (8.1.1)
 
 DEPENDENCIES:
-  - PacifySDK (= 0.1.3)
+  - PacifySDK (= 0.1.4)
   - TwilioVideo (= 1.0.1)
 
 SPEC CHECKSUMS:
@@ -59,7 +59,7 @@ SPEC CHECKSUMS:
   DeviceKit: 461e525867e48e725f41699c1cab3100df1258ff
   EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
   Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
-  PacifySDK: a1146ea61906fceaba38306058ba83ea877ae1cf
+  PacifySDK: a4d7b207254e2521d57f9e8c15c5174477d823e2
   PromiseKit: dfe8fcc6445674fb23378d89990838c1cbdbf05a
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
@@ -68,6 +68,6 @@ SPEC CHECKSUMS:
   UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: d1e3d35cb606578cacbec6e188b9ae9e1632b161
+PODFILE CHECKSUM: e7370a4320345beb1a7be4e33a63686ce0dd6db9
 
 COCOAPODS: 1.2.1
