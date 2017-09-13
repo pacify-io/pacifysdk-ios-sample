@@ -25,22 +25,21 @@ PODS:
     - CocoaLumberjack/Default
   - DeviceKit (1.0.1)
   - EDStarRating (1.1)
-  - Kingfisher (3.6.2)
-  - PacifySDK (0.1.8):
+  - Kingfisher (3.10.4)
+  - PacifySDK (0.2.0):
     - AFNetworking (~> 2.6.3)
     - CocoaLumberjack/Swift (~> 3.1.0)
     - DeviceKit (~> 1.0.1)
     - EDStarRating (~> 1.1)
-    - Kingfisher (~> 3.6.2)
-    - PromiseKit/CorePromise (= 4.0.3)
-    - PromiseKit/UIKit (= 4.0.3)
+    - PromiseKit/CorePromise (= 4.4.0)
+    - PromiseKit/UIKit (= 4.4.0)
     - Reachability (~> 3.2)
     - SimpleKeychain (~> 0.7.0)
     - SVProgressHUD (~> 2.1.2)
     - UITextView+Placeholder (~> 1.2.0)
     - zipzap (~> 8.1.1)
-  - PromiseKit/CorePromise (4.0.3)
-  - PromiseKit/UIKit (4.0.3):
+  - PromiseKit/CorePromise (4.4.0)
+  - PromiseKit/UIKit (4.4.0):
     - PromiseKit/CorePromise
   - Reachability (3.2)
   - SimpleKeychain (0.7.0)
@@ -50,17 +49,28 @@ PODS:
   - zipzap (8.1.1)
 
 DEPENDENCIES:
-  - PacifySDK (= 0.1.8)
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`, branch `swift4`)
+  - PacifySDK (= 0.2.0)
   - TwilioVideo (= 1.0.1)
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :branch: swift4
+    :git: https://github.com/onevcat/Kingfisher.git
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: 8adf42e4ab95741238b6d42c1ce0b682555afab5
+    :git: https://github.com/onevcat/Kingfisher.git
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
   DeviceKit: 461e525867e48e725f41699c1cab3100df1258ff
   EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
-  Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
-  PacifySDK: 948b3bc0433b0b8ca366812de75baaae1183a438
-  PromiseKit: dfe8fcc6445674fb23378d89990838c1cbdbf05a
+  Kingfisher: dbfac2b5dec4a531822e0ba8b571ce6010616075
+  PacifySDK: 3bb05767fc496778afd00466029409d9f4ea6d0e
+  PromiseKit: ecf5fe92275d57ee77c9ede858af47a162e9b97e
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
@@ -68,6 +78,6 @@ SPEC CHECKSUMS:
   UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 1fb1c9d1099ace02ab8fe17ce4bdf354c5922a3f
+PODFILE CHECKSUM: 6f057d56b5a9561075dd7466ffa75c08540c1628
 
 COCOAPODS: 1.3.1

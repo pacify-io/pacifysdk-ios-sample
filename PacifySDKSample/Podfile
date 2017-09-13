@@ -1,6 +1,6 @@
 platform :ios, '8.1'
 use_frameworks!
-swift_version = "3.0"
+swift_version = "4.0"
 
 source 'https://github.com/twilio/cocoapod-specs'
 source 'https://github.com/CocoaPods/Specs.git'
@@ -9,6 +9,7 @@ project 'PacifySDKSample.xcodeproj'
 
 target :PacifySDKSample do
 project 'PacifySDKSample.xcodeproj'
-    pod 'PacifySDK', '= 0.1.8'
+    pod 'PacifySDK', '= 0.2.0'
     pod 'TwilioVideo', '= 1.0.1'
+    pod 'Kingfisher', :git => 'https://github.com/onevcat/Kingfisher.git', :branch => 'swift4'
 end
