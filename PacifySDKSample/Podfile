@@ -11,5 +11,5 @@ target :PacifySDKSample do
 project 'PacifySDKSample.xcodeproj'
     pod 'PacifySDK', '= 0.2.0'
     pod 'TwilioVideo', '= 1.0.1'
-    pod 'Kingfisher', :git => 'https://github.com/onevcat/Kingfisher.git', :branch => 'swift4'
+    pod 'Kingfisher', :git => 'https://github.com/onevcat/Kingfisher.git', :commit => 'a45546464ee7ccb5b7004a60af73fb859e184e4b'
 end
