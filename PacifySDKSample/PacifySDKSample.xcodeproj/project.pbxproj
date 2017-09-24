@@ -13,10 +13,12 @@
 		43A8181A1E9FF4CC00BF558C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A818191E9FF4CC00BF558C /* Assets.xcassets */; };
 		43A8181D1E9FF4CC00BF558C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A8181B1E9FF4CC00BF558C /* LaunchScreen.storyboard */; };
 		43A818251E9FF71400BF558C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 43A818241E9FF71400BF558C /* Podfile */; };
-		F6EE4DBABE760265BC87ECA1 /* Pods_PacifySDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02F530ADB2597F4CD2815A7 /* Pods_PacifySDKSample.framework */; };
+		6C2F6FC5FA24226A1C838642 /* Pods_PacifySDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FE21589E783677113181DF /* Pods_PacifySDKSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34BEE2CE10BCA2C0E139F7C4 /* Pods-PacifySDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacifySDKSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PacifySDKSample/Pods-PacifySDKSample.debug.xcconfig"; sourceTree = "<group>"; };
+		35FE21589E783677113181DF /* Pods_PacifySDKSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacifySDKSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A8180F1E9FF4CC00BF558C /* PacifySDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacifySDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A818121E9FF4CC00BF558C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43A818141E9FF4CC00BF558C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +27,7 @@
 		43A8181C1E9FF4CC00BF558C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43A8181E1E9FF4CC00BF558C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A818241E9FF71400BF558C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4DB66A618864388E44EE0EAD /* Pods-PacifySDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacifySDKSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PacifySDKSample/Pods-PacifySDKSample.release.xcconfig"; sourceTree = "<group>"; };
-		9B5651BF94991C5F782BBE70 /* Pods-PacifySDKSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacifySDKSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PacifySDKSample/Pods-PacifySDKSample.debug.xcconfig"; sourceTree = "<group>"; };
-		D02F530ADB2597F4CD2815A7 /* Pods_PacifySDKSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PacifySDKSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4667A12571C99A04333999DA /* Pods-PacifySDKSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PacifySDKSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PacifySDKSample/Pods-PacifySDKSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,29 +35,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6EE4DBABE760265BC87ECA1 /* Pods_PacifySDKSample.framework in Frameworks */,
+				6C2F6FC5FA24226A1C838642 /* Pods_PacifySDKSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24FA236E21FF9CB8AFC96E1D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9B5651BF94991C5F782BBE70 /* Pods-PacifySDKSample.debug.xcconfig */,
-				4DB66A618864388E44EE0EAD /* Pods-PacifySDKSample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		43A818061E9FF4CC00BF558C = {
 			isa = PBXGroup;
 			children = (
 				43A818111E9FF4CC00BF558C /* PacifySDKSample */,
 				43A818101E9FF4CC00BF558C /* Products */,
-				24FA236E21FF9CB8AFC96E1D /* Pods */,
-				446DFFF43AA81431B251AC24 /* Frameworks */,
+				D63275C4CBF3DF2CA0ACB47A /* Pods */,
+				A323FDCF15B1B1930FFE13AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +74,21 @@
 			path = PacifySDKSample;
 			sourceTree = "<group>";
 		};
-		446DFFF43AA81431B251AC24 /* Frameworks */ = {
+		A323FDCF15B1B1930FFE13AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D02F530ADB2597F4CD2815A7 /* Pods_PacifySDKSample.framework */,
+				35FE21589E783677113181DF /* Pods_PacifySDKSample.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D63275C4CBF3DF2CA0ACB47A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34BEE2CE10BCA2C0E139F7C4 /* Pods-PacifySDKSample.debug.xcconfig */,
+				4667A12571C99A04333999DA /* Pods-PacifySDKSample.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,12 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43A818211E9FF4CC00BF558C /* Build configuration list for PBXNativeTarget "PacifySDKSample" */;
 			buildPhases = (
-				CD69956632E3AD56A8562E69 /* [CP] Check Pods Manifest.lock */,
+				7086C6EF591160155822CB8A /* [CP] Check Pods Manifest.lock */,
 				43A8180B1E9FF4CC00BF558C /* Sources */,
 				43A8180C1E9FF4CC00BF558C /* Frameworks */,
 				43A8180D1E9FF4CC00BF558C /* Resources */,
-				766532E169289FB74D53DA03 /* [CP] Embed Pods Frameworks */,
-				28BB3FAF0498F25B4B3BB04F /* [CP] Copy Pods Resources */,
+				EEFD277AC4C0EB8412823018 /* [CP] Embed Pods Frameworks */,
+				F81B4C5059115B80CFF1D700 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,22 +168,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		28BB3FAF0498F25B4B3BB04F /* [CP] Copy Pods Resources */ = {
+		7086C6EF591160155822CB8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PacifySDKSample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacifySDKSample/Pods-PacifySDKSample-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		766532E169289FB74D53DA03 /* [CP] Embed Pods Frameworks */ = {
+		EEFD277AC4C0EB8412823018 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,6 +194,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PacifySDKSample/Pods-PacifySDKSample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
 				"${BUILT_PRODUCTS_DIR}/EDStarRating/EDStarRating.framework",
@@ -207,6 +212,8 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EDStarRating.framework",
@@ -225,22 +232,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacifySDKSample/Pods-PacifySDKSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD69956632E3AD56A8562E69 /* [CP] Check Pods Manifest.lock */ = {
+		F81B4C5059115B80CFF1D700 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PacifySDKSample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PacifySDKSample/Pods-PacifySDKSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -372,7 +376,7 @@
 		};
 		43A818221E9FF4CC00BF558C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B5651BF94991C5F782BBE70 /* Pods-PacifySDKSample.debug.xcconfig */;
+			baseConfigurationReference = 34BEE2CE10BCA2C0E139F7C4 /* Pods-PacifySDKSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -388,7 +392,7 @@
 		};
 		43A818231E9FF4CC00BF558C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DB66A618864388E44EE0EAD /* Pods-PacifySDKSample.release.xcconfig */;
+			baseConfigurationReference = 4667A12571C99A04333999DA /* Pods-PacifySDKSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
