@@ -9,6 +9,6 @@ project 'PacifySDKSample.xcodeproj'
 
 target :PacifySDKSample do
 project 'PacifySDKSample.xcodeproj'
-    pod 'PacifySDK', '= 0.1.12'
-    pod 'TwilioVideo', '= 1.3.4'
+    pod 'PacifySDK', '= 0.1.13'
+    pod 'TwilioVideo', '= 1.3.6'
 end

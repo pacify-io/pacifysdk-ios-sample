@@ -1,18 +1,18 @@
 PODS:
-  - AFNetworking (3.2.0):
-    - AFNetworking/NSURLSession (= 3.2.0)
-    - AFNetworking/Reachability (= 3.2.0)
-    - AFNetworking/Security (= 3.2.0)
-    - AFNetworking/Serialization (= 3.2.0)
-    - AFNetworking/UIKit (= 3.2.0)
-  - AFNetworking/NSURLSession (3.2.0):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.0)
-  - AFNetworking/Security (3.2.0)
-  - AFNetworking/Serialization (3.2.0)
-  - AFNetworking/UIKit (3.2.0):
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - AWSCore (2.6.1)
   - AWSMobileAnalytics (2.6.1):
@@ -20,14 +20,14 @@ PODS:
   - CocoaLumberjack/Default (3.1.0)
   - CocoaLumberjack/Swift (3.1.0):
     - CocoaLumberjack/Default
-  - DeviceKit (1.0.1)
+  - DeviceKit (1.4.0)
   - EDStarRating (1.1)
   - Kingfisher (4.1.0)
-  - PacifySDK (0.1.12):
+  - PacifySDK (0.1.13):
     - AFNetworking (~> 3.2.0)
     - AWSMobileAnalytics (= 2.6.1)
     - CocoaLumberjack/Swift (~> 3.1.0)
-    - DeviceKit (~> 1.0.1)
+    - DeviceKit (~> 1.4.0)
     - EDStarRating (~> 1.1)
     - Kingfisher (= 4.1.0)
     - PromiseKit/CorePromise (= 4.4.0)
@@ -35,7 +35,7 @@ PODS:
     - Reachability (~> 3.2)
     - SimpleKeychain (~> 0.7.0)
     - SVProgressHUD (~> 2.1.2)
-    - UITextView+Placeholder (~> 1.2.0)
+    - "UITextView+Placeholder (~> 1.2.0)"
     - zipzap (~> 8.1.1)
   - PromiseKit/CorePromise (4.4.0)
   - PromiseKit/UIKit (4.4.0):
@@ -43,31 +43,49 @@ PODS:
   - Reachability (3.2)
   - SimpleKeychain (0.7.0)
   - SVProgressHUD (2.1.2)
-  - TwilioVideo (1.3.4)
-  - UITextView+Placeholder (1.2.0)
+  - TwilioVideo (1.3.6)
+  - "UITextView+Placeholder (1.2.1)"
   - zipzap (8.1.1)
 
 DEPENDENCIES:
-  - PacifySDK (= 0.1.12)
-  - TwilioVideo (= 1.3.4)
+  - PacifySDK (= 0.1.13)
+  - TwilioVideo (= 1.3.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AWSCore
+    - AWSMobileAnalytics
+    - CocoaLumberjack
+    - DeviceKit
+    - EDStarRating
+    - Kingfisher
+    - PacifySDK
+    - PromiseKit
+    - Reachability
+    - SimpleKeychain
+    - SVProgressHUD
+    - TwilioVideo
+    - "UITextView+Placeholder"
+    - zipzap
 
 SPEC CHECKSUMS:
-  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AWSCore: e7d37fa0715def975acf1b0d75556576780088b8
   AWSMobileAnalytics: e787c0a07a2a428ac27cc4a13be087b4bc667322
   CocoaLumberjack: 8311463ddf9ee86a06ef92a071dd656c89244500
-  DeviceKit: 461e525867e48e725f41699c1cab3100df1258ff
+  DeviceKit: fa74d97499660e88081718b16688e19217595dba
   EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
   Kingfisher: f14df8cbe576bf55f211fa589e9869bceb4ea87d
-  PacifySDK: fe0b8cfaef3f1276657198677f06ee2faec42ebf
+  PacifySDK: 08369c681b5f4c56f47b9fa4a1fd832fac2dd6b0
   PromiseKit: ecf5fe92275d57ee77c9ede858af47a162e9b97e
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
-  TwilioVideo: b10e5a1420ce8354c336e7dd7119f575f66e2b7d
-  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  TwilioVideo: 97d034e42351d151cc56c6901396a97c356eac2f
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 4d5bf086c691b667eefb744426b3db8c1c403e0e
+PODFILE CHECKSUM: 9269d3bbe54e6241cbb152d0546fed93fe88d229
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3
