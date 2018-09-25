@@ -52,7 +52,10 @@ class ViewController: UIViewController {
             environment: .testing,
             logLevel: .error,
             supportInfo: supportInfo,
-            appTitle: "MyApp" //embedding application title, used in title of back button and in new user congratulation message
+            appTitle: "MyApp", //embedding application title, used in title of back button and in new user congratulation message
+            language: .english_us,
+            currency: .USD,
+            signUpIntroConfig: PacifySignupIntroConfiguration(serviceDescription: "Talk to providers via video call. Access is unlimited, on-demand, and 24/7.")
         )
         
         Pacify.call(apiKey: apiKey, userToken: token, coupon: coupon, userData: userData, settings: settings, delegate: self)
