@@ -9,6 +9,18 @@ project 'PacifySDKSample.xcodeproj'
 
 target :PacifySDKSample do
 project 'PacifySDKSample.xcodeproj'
-    pod 'PacifySDK', '= 1.0.1’
+    pod 'PacifySDK', '= 1.0.2’
     pod 'TwilioVideo', '= 1.3.6'
+    
+end
+
+post_install do |installer|  
+  installer.pods_project.targets.each do |target|
+    if ['PromiseKit'].include? "#{target}"
+      print "Setting #{target}'s SWIFT_VERSION to 4.0\n"
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_VERSION'] = '4.0'
+      end
+    end
+  end
 end
