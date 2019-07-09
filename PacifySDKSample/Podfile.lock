@@ -17,8 +17,8 @@ PODS:
   - AWSCore (2.6.1)
   - AWSMobileAnalytics (2.6.1):
     - AWSCore (= 2.6.1)
-  - CocoaLumberjack/Core (3.5.3)
-  - CocoaLumberjack/Swift (3.5.3):
+  - CocoaLumberjack/Core (3.5.2)
+  - CocoaLumberjack/Swift (3.5.2):
     - CocoaLumberjack/Core
   - DeviceKit (1.11.0)
   - EDStarRating (1.1)
@@ -26,7 +26,7 @@ PODS:
   - PacifySDK (1.0.3):
     - AFNetworking (~> 3.2.0)
     - AWSMobileAnalytics (= 2.6.1)
-    - CocoaLumberjack/Swift (~> 3.5.2)
+    - CocoaLumberjack/Swift (= 3.5.2)
     - DeviceKit (~> 1.11.0)
     - EDStarRating (~> 1.1)
     - Kingfisher (= 4.1.0)
@@ -73,11 +73,11 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   AWSCore: e7d37fa0715def975acf1b0d75556576780088b8
   AWSMobileAnalytics: e787c0a07a2a428ac27cc4a13be087b4bc667322
-  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  CocoaLumberjack: 118bf4a820efc641f79fa487b75ed928dccfae23
   DeviceKit: a3a86f8dddbe1317a9a243cdf9646858bf135dce
   EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
   Kingfisher: f14df8cbe576bf55f211fa589e9869bceb4ea87d
-  PacifySDK: cc599066774a234664f21d1284f33913ada7fb9c
+  PacifySDK: af60b422d55a778534a73df5231d22b8330e39eb
   PromiseKit: 445dac9b2c3c3b4b31b5f842bc325700b848a8bd
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
