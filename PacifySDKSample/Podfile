@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
 swift_version = "4.2"
 
@@ -9,7 +9,7 @@ project 'PacifySDKSample.xcodeproj'
 
 target :PacifySDKSample do
 project 'PacifySDKSample.xcodeproj'
-    pod 'PacifySDK', '= 1.0.5’
+    pod 'PacifySDK', '= 1.0.7’
     pod 'TwilioVideo', '= 1.3.6'
     
 end

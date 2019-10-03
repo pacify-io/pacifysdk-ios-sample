@@ -55,7 +55,9 @@ class ViewController: UIViewController {
             appTitle: "MyApp", //embedding application title, used in title of back button and in new user congratulation message
             language: .english_us,
             currency: .USD,
-            signUpIntroConfig: PacifySignupIntroConfiguration(serviceDescription: "Talk to providers via video call. Access is unlimited, on-demand, and 24/7.")
+            signUpIntroConfig: PacifySignupIntroConfiguration(serviceDescription: "Talk to providers via video call. Access is unlimited, on-demand, and 24/7."),
+            mainScreenConfig: PacifyMainScreenConfiguration(callButtonsTitleLabelText: "Who would you like to contact?", isDisplayVideoIcon: false), // optional
+            audioOutput: .speaker // optional, available values: .default, .speaker
         )
         
         Pacify.call(apiKey: apiKey, userToken: token, coupon: coupon, userData: userData, settings: settings, delegate: self)
