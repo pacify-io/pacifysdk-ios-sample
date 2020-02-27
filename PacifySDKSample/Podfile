@@ -1,6 +1,6 @@
-platform :ios, '10.0'
+platform :ios, '12.0'
 use_frameworks!
-swift_version = "4.2"
+swift_version = "5.1"
 
 source 'https://github.com/twilio/cocoapod-specs'
 source 'https://github.com/CocoaPods/Specs.git'
@@ -9,7 +9,7 @@ project 'PacifySDKSample.xcodeproj'
 
 target :PacifySDKSample do
 project 'PacifySDKSample.xcodeproj'
-    pod 'PacifySDK', '= 1.0.7’
+    pod 'PacifySDK', '= 1.0.8’
     pod 'TwilioVideo', '= 1.3.6'
     
 end
@@ -17,9 +17,9 @@ end
 post_install do |installer|  
   installer.pods_project.targets.each do |target|
     if ['PromiseKit'].include? "#{target}"
-      print "Setting #{target}'s SWIFT_VERSION to 4.0\n"
+      print "Setting #{target}'s SWIFT_VERSION to 5.1\n"
       target.build_configurations.each do |config|
-        config.build_settings['SWIFT_VERSION'] = '4.0'
+        config.build_settings['SWIFT_VERSION'] = '5.1'
       end
     end
   end
