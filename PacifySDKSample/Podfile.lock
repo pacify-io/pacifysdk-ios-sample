@@ -6,21 +6,21 @@ PODS:
   - AFNetworking/Reachability (3.2.1)
   - AFNetworking/Security (3.2.1)
   - AFNetworking/Serialization (3.2.1)
-  - AWSCore (2.10.3)
-  - AWSMobileAnalytics (2.10.3):
-    - AWSCore (= 2.10.3)
+  - AWSCore (2.11.1)
+  - AWSMobileAnalytics (2.11.1):
+    - AWSCore (= 2.11.1)
   - CocoaLumberjack/Core (3.5.3)
   - CocoaLumberjack/Swift (3.5.3):
     - CocoaLumberjack/Core
   - DeviceKit (1.11.0)
   - EDStarRating (1.1)
   - Kingfisher (5.7.1)
-  - PacifySDK (1.0.8):
+  - PacifySDK (1.0.9):
     - AFNetworking/NSURLSession (~> 3.2.0)
     - AFNetworking/Reachability (~> 3.2.0)
     - AFNetworking/Security (~> 3.2.0)
     - AFNetworking/Serialization (~> 3.2.0)
-    - AWSMobileAnalytics (= 2.10.3)
+    - AWSMobileAnalytics (= 2.11.1)
     - CocoaLumberjack/Swift (= 3.5.3)
     - DeviceKit (~> 1.11.0)
     - EDStarRating (~> 1.1)
@@ -43,7 +43,7 @@ PODS:
   - zipzap (8.1.1)
 
 DEPENDENCIES:
-  - PacifySDK (= 1.0.8)
+  - PacifySDK (= 1.0.9)
   - TwilioVideo (= 1.3.6)
 
 SPEC REPOS:
@@ -66,13 +66,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  AWSCore: f9b8a30d9e8ec07d1a6dd8f0ec5fe84b6a215041
-  AWSMobileAnalytics: 79cbbb5d45f0f916d8860f346bad1d7a3d4d38f3
+  AWSCore: 00093a1ff49b5d6ce5f1e4d83fe301486fc5034d
+  AWSMobileAnalytics: 7daacd515dc8d6458079d8cdbdf950255d1105a7
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
   DeviceKit: a3a86f8dddbe1317a9a243cdf9646858bf135dce
   EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
   Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
-  PacifySDK: 5d9b22bd716d1025f371cbee203dab7e5d1e34e2
+  PacifySDK: 6bedee0a5d5e0031473f50d79b1ef3c2dabd512c
   PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
@@ -81,6 +81,6 @@ SPEC CHECKSUMS:
   "UITextView+Placeholder": c407b27599ea23cca425946fee3cf1db5d547008
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 976b45f03318bd9bafad8a52c5379fcb3d22a3d3
+PODFILE CHECKSUM: 6af478d0b2d5785803a36bda415a1adefaeaf3ad
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.3
