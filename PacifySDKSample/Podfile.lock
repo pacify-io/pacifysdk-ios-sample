@@ -15,7 +15,7 @@ PODS:
   - DeviceKit (1.11.0)
   - EDStarRating (1.1)
   - Kingfisher (5.7.1)
-  - PacifySDK (1.0.9):
+  - PacifySDK (2.0.0):
     - AFNetworking/NSURLSession (~> 3.2.0)
     - AFNetworking/Reachability (~> 3.2.0)
     - AFNetworking/Security (~> 3.2.0)
@@ -30,6 +30,7 @@ PODS:
     - Reachability (~> 3.2)
     - SimpleKeychain (~> 0.7.0)
     - SVProgressHUD (~> 2.1.2)
+    - TwilioVideo (~> 4.4)
     - "UITextView+Placeholder (~> 1.3.3)"
     - zipzap (~> 8.1.1)
   - PromiseKit/CorePromise (6.10.0)
@@ -38,13 +39,12 @@ PODS:
   - Reachability (3.2)
   - SimpleKeychain (0.7.0)
   - SVProgressHUD (2.1.2)
-  - TwilioVideo (1.3.6)
+  - TwilioVideo (4.4.0)
   - "UITextView+Placeholder (1.3.3)"
   - zipzap (8.1.1)
 
 DEPENDENCIES:
-  - PacifySDK (= 1.0.9)
-  - TwilioVideo (= 1.3.6)
+  - PacifySDK (= 2.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -72,15 +72,15 @@ SPEC CHECKSUMS:
   DeviceKit: a3a86f8dddbe1317a9a243cdf9646858bf135dce
   EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
   Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
-  PacifySDK: 6bedee0a5d5e0031473f50d79b1ef3c2dabd512c
+  PacifySDK: 614ddb50a3ec6f2f0c89e3f908add1a4d36d8f6b
   PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SimpleKeychain: b50cef3b87939d480ea1143425c00f5b4b70fe21
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
-  TwilioVideo: 97d034e42351d151cc56c6901396a97c356eac2f
+  TwilioVideo: fcf10b7460e582570887d194b73e75425685d813
   "UITextView+Placeholder": c407b27599ea23cca425946fee3cf1db5d547008
   zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
 
-PODFILE CHECKSUM: 6af478d0b2d5785803a36bda415a1adefaeaf3ad
+PODFILE CHECKSUM: 1815578b46ff1407bcb2374b103f7682f931678f
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
